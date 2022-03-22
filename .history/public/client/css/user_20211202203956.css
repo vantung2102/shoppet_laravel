@@ -1,0 +1,338 @@
+.user {
+  margin-top: var(--header-height);
+  padding-bottom: 20px;
+  background-color: #f5f5f5;
+}
+p {
+  display: block;
+  margin: 4px 0;
+}
+.manage-icon {
+  margin-left: 8px;
+  min-width: 28px;
+}
+.manage-title {
+  font-weight: 600;
+}
+.manage_acount-text {
+  line-height: 2;
+}
+.user_infor,
+.user_contain {
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: var(--white-color);
+  padding-top: 12px;
+  padding-bottom: 20px;
+  height: 400px;
+}
+
+  /* Tai khoan cua toi */
+.user_my-information {
+
+}
+.user_my-information-title {
+  display: flex;
+  justify-content: space-around;
+}
+.user_info-detail {
+  border-right: 1px solid rgb(196, 192, 192);
+}
+.user_profile {
+  padding-left: 20px;
+  padding-top: 12px;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+.user_profile-img {
+  width: 60px;
+  height: 60px;
+}
+.user_profile-name {
+  padding-left: 12px;
+  font-weight: 600;
+}
+.user_manage {
+  font-size: 1.4rem;
+}
+.manage_acount {
+  line-height: 1.5;
+}
+.manage_acount-item {
+  display: flex;
+  align-items: center;
+}
+
+.manage_order {
+  align-items: center;
+}
+.manage_order-item {
+  display: flex;
+  align-items: center;
+}
+
+.user_my-information {
+  font-size: 1.4rem;
+}
+.information_input-title {
+  min-width: 200px;
+}
+
+form#form_personal-infor .information_input {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  grid-gap: 20px 20px;
+  padding: 0 20px;
+  align-items: center;
+}
+#form_personal-infor .input-value {
+  height: 36px;
+}
+
+form#form_personal-infor .information_input-sex--item {
+  margin-left: 48px;
+}
+.btn_save-change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.btn_save-change button {
+  margin: 20px 0;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid #3fd0da;
+  background-color: #3fd0da;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+}
+.btn_save-change:hover {
+  opacity: 0.9;
+}
+
+.user_info-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.user_info-contact--item {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.user_info-contact--text {
+  padding-left: 20px;
+}
+.change_info {
+  border-radius: 2px;
+  border: 1px solid #3fd0da;
+  padding: 8px;
+  color: var(--white-color);
+  background-color: #3fd0da;
+  cursor: pointer;
+}
+.change_info:hover{
+  opacity: 0.9;
+}
+.user_info-contact--change {
+  padding-right: 20px;
+}
+
+  /* Dia chi */
+.user_my-address {
+
+}
+.address-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  margin: 12px 40px 0 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgb(223, 221, 221);
+}
+.address_title-text {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.address_title-btn--add {
+  align-items: center;
+  background-color: #3fd0da;
+  color: var(--white-color);
+  border: 1px solid #3fd0da;
+  padding: 12px 12px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.address_title-btn--add:hover {
+  opacity: 0.9;
+}
+.user-address {
+  padding-bottom: 24px;
+}
+
+.address-detail {
+  margin: 20px 0 20px 40px;
+}
+.address-detail-infor {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-left: 12px;
+}
+.address-detail-edit {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 60px;
+  font-size: 1.4rem;
+}
+.address-detail-btn--update {
+  padding: 8px 16px;
+  align-items: center;
+  margin: 0 8px;
+  color: var(--white-color);
+  border: 1px solid #3fd0da;
+  border-radius: 2px;
+  background-color: #3fd0da;
+  cursor: pointer;
+}
+.address-detail-btn--update:hover {
+  opacity: 0.9;
+}
+
+  /* Doi mat khau */
+.user-password {
+}
+.user-password-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 18px 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgb(223, 221, 221);
+}
+.user-password-cotain {
+  display: flex;
+  font-size: 1.4rem;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+form#form_password .password_input {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  grid-gap: 28px 20px;
+  padding: 0 20px;
+  align-items: center;
+}
+.input-pass {
+  width: 250px;
+  height: 36px;
+  border: 1px solid #888;
+  border-radius: 2px;
+}
+
+  /* Don hang*/
+.user_order{
+  font-size: 1.4rem;
+  margin: 12px 20px;
+}
+.user_order-title{
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgb(223, 221, 221);
+}
+.tableOrder{
+  margin: 20px 60px;
+}
+.table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+tr th {
+  text-transform: capitalize;
+}
+td,th {
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 10px;
+  width: max-content;
+}
+tr th:nth-child(3) {
+  width: 320px;
+}
+
+  /* Thong bao */
+.user_notify{
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+}
+.user_notify-title{
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(199, 193, 193);
+}
+.user_notify-item{
+  width: 100%;
+  height: 320px;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+}
+.user_notify-item-detail{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.user_notify-img{
+  width: 70px;
+  height: 70px;
+}
+.user_notify-text{
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+}
+
+
+/* Javascript*/
+.user_manage .manage_order .manage_order-item,
+.user_manage .manage_acount .manage_acount-item{
+  padding: 6px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+.user_manage .manage_order .manage_order-item:hover,
+.user_manage .manage_acount .manage_acount-item:hover{
+  color: red;
+}
+
+.arrtitle.active{
+  color: var(--white-color);
+  background-color: #3fd0da;
+}
+.boxDetailInfo{
+  display: none;
+}
+.boxDetailInfo.active {
+  display: block;
+}

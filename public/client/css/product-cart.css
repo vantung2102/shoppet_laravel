@@ -1,0 +1,346 @@
+.cart__link {
+  margin-top: calc(var(--header-height) + 4px);
+  margin-left: 48px;
+  margin-bottom: -12px;
+  padding: 4px 0;
+  font-size: 1.4rem;
+  padding: 10px 0;
+}
+.product-cart__link-Shop,
+.product-cart__link-cart {
+  text-decoration: none;
+}
+.product-cart {
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.product-cart__category,
+.product-cart__list,
+.product-cart__total {
+  font-size: 1.4rem;
+  background-color: var(--white-color);
+  padding: 20px 20px;
+  margin-bottom: 12px;
+}
+
+.product-cart__category--select {
+  display: flex;
+}
+.product-cart__checkbox {
+  width: 16px;
+  height: 16px;
+  padding: 1px 8px 1px 1px;
+}
+.product-cart__category-product {
+  text-align: center;
+}
+
+.product-cart__category--mobile {
+  display: none;
+}
+.product-cart__category--pay {
+  color: #888;
+  text-align: center;
+}
+
+/* Danh sach san pham*/
+.product-cart__list {
+}
+.product-cart__list--description {
+  display: flex;
+  align-items: center;
+}
+
+.product-cart__list-product {
+  display: flex;
+  margin-left: 18px;
+}
+.product-cart__list--img {
+  width: 80px;
+  height: 80px;
+}
+.product-cart__list--name {
+  margin: auto;
+  margin-left: 12px;
+}
+.product-cart__list--price {
+  height: 85px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.product-cart__list--price-old {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 8px;
+}
+.product-cart__list--price-new {
+  color: #3fd0d4;
+  font-weight: 600;
+}
+.product-cart__list--count {
+  height: 80px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.product-cart__list--amount {
+  display: flex;
+  text-align: center;
+}
+.btn-minus--amount,
+.btn-plus--amount {
+  cursor: pointer;
+  border-radius: 2px;
+  border: 1px solid;
+}
+.input--amount {
+  width: 36px;
+  text-align: center;
+  margin: 0;
+}
+
+.product-cart__list--ready {
+  color: #3fd0d4;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.product-cart__list--money {
+  color: #3fd0d4;
+  font-weight: 600;
+  height: 85px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-cart__list--delete {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.product-cart__list--garbage {
+  padding: 12px;
+}
+.product-cart__list--nofity {
+  color: var(--white-color);
+  cursor: pointer;
+  background-color: #3fd0d4;
+  border: 1px solid #3fd0d4;
+  border-radius: 2px;
+  margin-left: 8px;
+  padding: 4px 0;
+  width: 60px;
+  justify-content: center;
+}
+
+.product-cart__list--nofity:hover {
+  opacity: 0.8;
+}
+.product-cart__total--operation {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 8px 0;
+}
+.product-cart__total--choose {
+  cursor: pointer;
+  padding-left: 20px;
+}
+.btn-operation {
+  background-color: #ffff;
+  border: none;
+}
+.product-cart__total--delete {
+  cursor: pointer;
+  margin: 0 16px;
+}
+
+.product-cart__total--pay {
+  justify-content: end;
+  margin-left: 18px;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.product-cart__total--price {
+  display: flex;
+}
+.product-cart__total--text {
+  margin: 0 8px;
+}
+.product-cart__total--money {
+  font-size: 1.8rem;
+  color: #3fd0d4;
+  font-weight: 600;
+}
+
+.product-cart__buy {
+  color: var(--white-color);
+  border-radius: 2px;
+  margin-left: 20px;
+  margin-right: 35px;
+  padding: 8px 70px;
+  border: 1px solid #3fd0d4;
+  background-color: #3fd0d4;
+  cursor: pointer;
+}
+.product-cart__buy:hover {
+  opacity: 0.8;
+}
+/*Mobile and tablet*/
+.product-cart-mobile {
+  margin-top: 12px;
+  display: none;
+  font-size: 1.4rem;
+}
+.header-taskbar {
+  background-color: var(--white-color);
+  display: flex;
+  padding: 8px 20px;
+  font-size: 1.6rem;
+  align-items: flex-end;
+}
+.product-cart-mobile__product {
+  align-items: center;
+}
+.product-cart-mobile_description {
+  background-color: var(--white-color);
+  margin-top: 8px;
+  display: flex;
+  padding: 12px 0;
+}
+.product-cart-mobile__image {
+  padding: 8px 0 8px 20px;
+  align-items: center;
+}
+.product-cart-mobile__img {
+  width: 100px;
+  height: 100px;
+}
+.product-cart-mobile_checkbox {
+  margin-top: 2px;
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  justify-content: baseline;
+}
+.product-cart-mobile__specific {
+  padding: 8px 12px;
+}
+.product-cart-mobile__name {
+  font-size: 1.4rem;
+}
+.product-cart-mobile__price {
+  display: flex;
+  font-size: 1.4rem;
+  padding-top: 8px;
+}
+.product-cart-mobile__price--old {
+  color: #888;
+  text-decoration: line-through;
+  padding-right: 4px;
+}
+.product-cart-mobile__price--new {
+  color: #3fd0d4;
+  font-weight: 600;
+}
+.product-cart-mobile__ready {
+  padding-top: 8px;
+  font-size: 1.4rem;
+  padding-left: 8px;
+  color: #3fd0d4;
+}
+.product-cart-mobile__amount {
+  font-size: 1.6rem;
+  display: inline-flex;
+  padding-top: 8px;
+}
+.input--amount__mobile {
+  text-align: center;
+  width: 28px;
+  border: 1px solid #888;
+}
+
+.btn-minus--amount__mobile {
+  border: 1px solid #888;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.btn-plus--amount__mobile {
+}
+.product-cart-mobile__delete {
+  background-color: var(--white-color);
+  margin-top: 8px;
+  display: flex;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  justify-content: center;
+}
+.product-cart-mobile__delete {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+}
+.product-cart-mobile__pay {
+  margin-top: 8px;
+  background-color: var(--white-color);
+  padding: 12px 0;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.product-cart-mobile__chooseAll {
+  display: inline-block;
+  margin: auto;
+  font-size: 1.4rem;
+}
+
+.product-cart__mobile-total {
+  font-size: 1.4rem;
+  display: flex;
+  margin-right: 12px;
+  align-items: center;
+}
+.product-cart-mobile__select {
+  padding-left: 20px;
+  align-items: center;
+}
+.product-cart__mobile-total--money {
+  display: flex;
+}
+.product-cart__mobile-money {
+  display: flex;
+  justify-content: center;
+  color: #3fd0d4;
+  font-weight: 600;
+}
+
+.product-cart__mobile__buy {
+  margin-left: 8px;
+  color: var(--white-color);
+  font-weight: 500;
+  border: 1px solid #3fd0d4;
+  background-color: #3fd0d4;
+  padding: 8px 24px;
+}
+.product-cart__mobile__buy:hover {
+  opacity: 0.9;
+}
